@@ -11,6 +11,7 @@ struct InfoPanelView: View {
     var scale: CGFloat
     var offset: CGSize
     @State private var isInfoPanelVisible: Bool = false
+    
     var body: some View {
         HStack{
         //MARK: - HOTSPOT
